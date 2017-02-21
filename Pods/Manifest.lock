@@ -1,0 +1,62 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BmobSDK (1.7.2)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - LLBootstrapButton (0.0.1)
+  - Masonry (1.0.1)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - SVSegmentedControl (0.2)
+  - YYKit (1.0.7):
+    - YYKit/no-arc (= 1.0.7)
+  - YYKit/no-arc (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - BmobSDK (~> 1.7.2)
+  - ChameleonFramework (~> 2.1.0)
+  - FMDB (~> 2.6.2)
+  - LLBootstrapButton
+  - Masonry (~> 1.0.1)
+  - MBProgressHUD (~> 1.0.0)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.12)
+  - SVSegmentedControl (~> 0.2)
+  - YYKit (~> 1.0.7)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BmobSDK: e188cb31d6a8417ab668aee821da227d7512b865
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  LLBootstrapButton: b4f9735e1684f7525aa3b8aea65c55f0af66348d
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SVSegmentedControl: cc585b217cd1bc43a14a96a8fdfd16a1c3845b25
+  YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
+
+PODFILE CHECKSUM: 3bec9c49a46bd5980be1cafe61fc262992caf11d
+
+COCOAPODS: 1.0.1

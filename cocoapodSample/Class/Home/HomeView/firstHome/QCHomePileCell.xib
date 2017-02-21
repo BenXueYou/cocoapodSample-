@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HPCell" rowHeight="221" id="KGk-i7-Jjw" customClass="QCHomePileCell">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="221"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="HomePileCell" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="220"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon1" translatesAutoresizingMaskIntoConstraints="NO" id="R5v-Jq-YQX">
+                        <rect key="frame" x="225" y="43" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="lbJ-OH-ePT"/>
+                            <constraint firstAttribute="width" constant="80" id="zLj-NF-ks4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="故障桩：8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHe-OX-GwZ">
+                        <rect key="frame" x="226" y="130" width="79" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="充电桩总数：30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ijk-tA-qTL">
+                        <rect key="frame" x="24" y="130" width="123" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-1" translatesAutoresizingMaskIntoConstraints="NO" id="txl-Pi-q3q">
+                        <rect key="frame" x="45" y="43" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="9dx-If-R20"/>
+                            <constraint firstAttribute="width" constant="80" id="L1G-KK-56N"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="R5v-Jq-YQX" secondAttribute="trailing" constant="45" id="6d3-Te-Bn3"/>
+                    <constraint firstItem="IHe-OX-GwZ" firstAttribute="centerX" secondItem="R5v-Jq-YQX" secondAttribute="centerX" id="Kg3-QK-Smo"/>
+                    <constraint firstItem="txl-Pi-q3q" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" multiplier="3:4" id="O6l-EH-viJ"/>
+                    <constraint firstItem="ijk-tA-qTL" firstAttribute="top" secondItem="txl-Pi-q3q" secondAttribute="bottom" constant="7" id="fgd-he-CnS"/>
+                    <constraint firstItem="IHe-OX-GwZ" firstAttribute="top" secondItem="R5v-Jq-YQX" secondAttribute="bottom" constant="7" id="isf-VH-gUf"/>
+                    <constraint firstItem="ijk-tA-qTL" firstAttribute="centerX" secondItem="txl-Pi-q3q" secondAttribute="centerX" id="lSz-ef-ily"/>
+                    <constraint firstItem="txl-Pi-q3q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="45" id="qCX-Qu-VPK"/>
+                    <constraint firstItem="R5v-Jq-YQX" firstAttribute="centerY" secondItem="txl-Pi-q3q" secondAttribute="centerY" id="ydl-wj-1W7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="PileFaultImage" destination="R5v-Jq-YQX" id="4JN-6P-brf"/>
+                <outlet property="PileNumImage" destination="txl-Pi-q3q" id="IfG-s5-MMW"/>
+            </connections>
+            <point key="canvasLocation" x="442" y="419.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon-1" width="96" height="96"/>
+        <image name="icon1" width="96" height="96"/>
+    </resources>
+</document>
