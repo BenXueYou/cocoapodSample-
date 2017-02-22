@@ -27,6 +27,7 @@
     self.window.rootViewController = [[QCLoginCtrl alloc] init];
     [self.window makeKeyAndVisible];
     
+    
     //隐藏状态栏
 //    [[UIApplication sharedApplication]setStatusBarHidden:NO];
     

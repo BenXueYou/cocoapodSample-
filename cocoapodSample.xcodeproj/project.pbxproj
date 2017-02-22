@@ -158,7 +158,6 @@
 		8EDFDEAA1D6C39C900BD3D93 /* ZCTradeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFDEA01D6C39C800BD3D93 /* ZCTradeInputView.m */; };
 		8EDFDEAB1D6C39C900BD3D93 /* ZCTradeKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFDEA21D6C39C900BD3D93 /* ZCTradeKeyboard.m */; };
 		8EDFDEAC1D6C39C900BD3D93 /* ZCTradeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFDEA41D6C39C900BD3D93 /* ZCTradeView.m */; };
-		8EDFDEB01D6C3D1C00BD3D93 /* CDFInitialsAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFDEAF1D6C3D1C00BD3D93 /* CDFInitialsAvatar.m */; };
 		8EDFDEBE1D6C3D2B00BD3D93 /* WBPopMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFDEB31D6C3D2B00BD3D93 /* WBPopMenuModel.m */; };
 		8EDFDEBF1D6C3D2B00BD3D93 /* WBPopMenuSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFDEB51D6C3D2B00BD3D93 /* WBPopMenuSingleton.m */; };
 		8EDFDEC01D6C3D2B00BD3D93 /* WBPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFDEB71D6C3D2B00BD3D93 /* WBPopMenuView.m */; };
@@ -479,8 +478,6 @@
 		8EDFDEA21D6C39C900BD3D93 /* ZCTradeKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTradeKeyboard.m; sourceTree = "<group>"; };
 		8EDFDEA31D6C39C900BD3D93 /* ZCTradeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTradeView.h; sourceTree = "<group>"; };
 		8EDFDEA41D6C39C900BD3D93 /* ZCTradeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTradeView.m; sourceTree = "<group>"; };
-		8EDFDEAE1D6C3D1C00BD3D93 /* CDFInitialsAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDFInitialsAvatar.h; sourceTree = "<group>"; };
-		8EDFDEAF1D6C3D1C00BD3D93 /* CDFInitialsAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDFInitialsAvatar.m; sourceTree = "<group>"; };
 		8EDFDEB21D6C3D2B00BD3D93 /* WBPopMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBPopMenuModel.h; sourceTree = "<group>"; };
 		8EDFDEB31D6C3D2B00BD3D93 /* WBPopMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBPopMenuModel.m; sourceTree = "<group>"; };
 		8EDFDEB41D6C3D2B00BD3D93 /* WBPopMenuSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBPopMenuSingleton.h; sourceTree = "<group>"; };
@@ -780,7 +777,6 @@
 				8EFBF0EC1D815C1700A39E93 /* calendar */,
 				8E4E8F1D1D6E9595001BA911 /* KWFormView */,
 				8EDFDEB11D6C3D2B00BD3D93 /* PopMenuView */,
-				8EDFDEAD1D6C3D1C00BD3D93 /* CDFInitialsAvatar */,
 				8EDFDE941D6C39C800BD3D93 /* ZCTradeView */,
 				8E4E8F271D6EE04E001BA911 /* searchBar */,
 				8EDFDE751D6C36D000BD3D93 /* UICountingLabel.h */,
@@ -1350,15 +1346,6 @@
 			path = ZCTradeView;
 			sourceTree = "<group>";
 		};
-		8EDFDEAD1D6C3D1C00BD3D93 /* CDFInitialsAvatar */ = {
-			isa = PBXGroup;
-			children = (
-				8EDFDEAE1D6C3D1C00BD3D93 /* CDFInitialsAvatar.h */,
-				8EDFDEAF1D6C3D1C00BD3D93 /* CDFInitialsAvatar.m */,
-			);
-			path = CDFInitialsAvatar;
-			sourceTree = "<group>";
-		};
 		8EDFDEB11D6C3D2B00BD3D93 /* PopMenuView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1782,7 +1769,6 @@
 				8E7092641D7665B600A5ACFC /* QCTableViewCell.m in Sources */,
 				8EEC1D591D71900400B0DDD9 /* UIView+Zirkfied.m in Sources */,
 				8E7092581D7665B600A5ACFC /* QCPileModel.m in Sources */,
-				8EDFDEB01D6C3D1C00BD3D93 /* CDFInitialsAvatar.m in Sources */,
 				8E6310C81D7EB80300F985CB /* JXBarChartView.m in Sources */,
 				8E66781B1D645419009B35BB /* XYNaviGationController.m in Sources */,
 				8EDFDE021D6BFAB200BD3D93 /* UUDatePicker.m in Sources */,
