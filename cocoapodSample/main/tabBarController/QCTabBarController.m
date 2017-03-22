@@ -74,9 +74,9 @@
     [self setHidesBottomBarWhenPushed:YES];
     CATransition *animation =[CATransition animation];
     [animation setDuration:0.35f];
-    [animation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionDefault]];
+    [animation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
     [animation setType:kCATransitionMoveIn];
-    [animation setSubtype:kCATransitionFromRight];
+    [animation setSubtype:kCATransitionReveal];
     [self.view.layer addAnimation:animation forKey:@"reveal"];
 }
 #pragma mark - event response
